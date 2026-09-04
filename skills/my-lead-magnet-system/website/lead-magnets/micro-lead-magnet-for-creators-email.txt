@@ -1,0 +1,17 @@
+Subject: your lead magnet PDF (read this first)
+
+Hey {{contact.first_name}},
+
+Here's the PDF: {{YOUR_LEAD_MAGNET_URL}}
+
+It's short. That's the point.
+
+Most operators spend two weeks building a lead magnet the creator's audience ignores. This framework stops that from happening — one specific pain, one clear win, ten minutes to build.
+
+The AI prompt inside works for any niche. Run it, edit for the creator's voice, done.
+
+If it lands and you want to see how the lead magnet fits into the full operating stack — the email sequence, the offer, the AI systems running behind it — DM me "LEAD MAGNET" on Instagram and I'll walk you through it.
+
+{{YOUR_NAME}}
+
+P.S. The operators I work with build three or four of these per creator client. One per offer. One per content pillar. Once you've got the framework down it takes an afternoon. Reply if you've got questions — I read every one.

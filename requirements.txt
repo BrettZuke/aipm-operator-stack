@@ -1,0 +1,31 @@
+# Core
+requests
+python-dotenv
+httpx
+
+# Scraping
+apify-client
+instaloader
+yt-dlp
+youtube-transcript-api
+beautifulsoup4
+lxml
+
+# Free models
+google-generativeai
+groq
+
+# Google Workspace
+gspread
+google-auth
+google-api-python-client
+
+# Data and documents
+supabase
+openpyxl
+reportlab
+pillow
+
+# Optional and PAID. Install only for a run you have decided to pay for.
+# anthropic
+# openai

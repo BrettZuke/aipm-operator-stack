@@ -1,0 +1,9 @@
+{
+  "toolPaths": {
+    "ytDlp": "<REPO_ROOT>/.venv-media/bin/yt-dlp",
+    "whisper": "/Library/Frameworks/Python.framework/Versions/3.13/bin/whisper",
+    "ffmpeg": "/opt/homebrew/bin/ffmpeg"
+  },
+  "setupComplete": true,
+  "setupDate": "2026-07-19"
+}
