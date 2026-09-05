@@ -13,10 +13,13 @@ settings from a `.env` file you create.
 
 ## Where to start
 
-1. Run through [SETUP.md](SETUP.md). Fifteen minutes.
-2. Approve the Playwright browser when Claude Code asks. See [MCP.md](MCP.md) for why
+1. Copy `CLAUDE.md` to `~/.claude/CLAUDE.md`. Ten seconds, and it is the single most
+   valuable thing here. It loads in every session and stops Claude claiming work is
+   done when it never checked, or inventing facts about a real client's business.
+2. Run through the rest of [SETUP.md](SETUP.md). Fifteen minutes.
+3. Approve the Playwright browser when Claude Code asks. See [MCP.md](MCP.md) for why
    that one matters more than anything else here.
-3. That is it. The skills load themselves: Claude reads what each one is for and
+4. That is it. The skills load themselves: Claude reads what each one is for and
    uses the right one when the task fits. [skills/INDEX.md](skills/INDEX.md) is there
    if you want to see what it can reach for, not something you have to study.
 
@@ -32,6 +35,7 @@ settings from a `.env` file you create.
 | [agents/](agents/) | Subagent definitions, for pushing volume work to cheaper models | 34 |
 | [prompts/](prompts/) | Task templates. `00_universal_wrapper.md` is the default for anything | 8 |
 | [execution/](execution/) | Four checking tools: copy lint, page QA, deploy verify, Apify token rotation | 4 |
+| [CLAUDE.md](CLAUDE.md) | The working rules. Loads every session. Copy it to `~/.claude/` | 1 |
 | [MCP.md](MCP.md) | Giving Claude a real browser, so it can see the pages you ship | 1 |
 | [ATTRIBUTION.md](ATTRIBUTION.md) | Which skills came from open source projects, and their licences | 1 |
 

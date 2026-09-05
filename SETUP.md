@@ -19,7 +19,26 @@ That is enough to use the skills. The steps below add the extras.
 
 ---
 
-## 2. Install the skills
+## 2. Install the working rules (do not skip this one)
+
+```bash
+mkdir -p ~/.claude
+cp CLAUDE.md ~/.claude/CLAUDE.md
+```
+
+This is the highest-value thing in the repo and it takes ten seconds.
+
+Skills only fire when a task happens to match one. `CLAUDE.md` loads into **every**
+session, in every project, forever. It is what stops Claude telling you a site works
+when it never opened it, inventing a review count for a real plumber, or sending a
+proposal still signed with someone else's name.
+
+If you already have a `~/.claude/CLAUDE.md`, open both and merge them rather than
+overwriting.
+
+---
+
+## 3. Install the skills
 
 ```bash
 mkdir -p ~/.claude/skills
@@ -37,7 +56,7 @@ Restart Claude Code. Ask it "what skills do you have" and you should see them.
 
 ---
 
-## 3. Give Claude a browser
+## 4. Give Claude a browser
 
 Open this folder in Claude Code. It will ask to approve the Playwright server listed
 in `.mcp.json`. Say yes.
@@ -51,7 +70,7 @@ cannot read the code of.
 
 ---
 
-## 4. Optional: the four checking tools
+## 5. Optional: the four checking tools
 
 Only needed if you want to run the verification scripts the prompt templates call.
 
@@ -70,9 +89,11 @@ Python 3.10 or newer.
 | `execution/deploy_verify.py` | Proves the new content is actually serving, rather than trusting a 200 response |
 | `execution/apify_pool.py` | Rotates Apify tokens so one hitting its monthly quota does not stop a scrape |
 
+Usage is `python3 execution/page_qa.py URL`, `python3 execution/deploy_verify.py URL --expect "text"`, and `python3 execution/copy_lint.py FILE`. None of them take `--help`.
+
 ---
 
-## 5. Optional: API keys
+## 6. Optional: API keys
 
 ```bash
 cp .env.example .env
@@ -89,7 +110,7 @@ template and is safe to commit. `.env` is yours and never leaves your machine.
 
 ---
 
-## 6. Before you run anything against a live account
+## 7. Before you run anything against a live account
 
 - Read what a script does before you run it. Every one has a docstring at the top.
 - Test on your own accounts before a client's.
@@ -98,7 +119,7 @@ template and is safe to commit. `.env` is yours and never leaves your machine.
 
 ---
 
-## 7. Structure
+## 8. Structure
 
 | Folder | What it is |
 |---|---|
