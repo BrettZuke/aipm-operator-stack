@@ -4,12 +4,10 @@ Install them all once:
 
 ```bash
 cp -R skills/* ~/.claude/skills/
-rm -rf ~/.claude/skills/_worked-examples ~/.claude/skills/INDEX.md
+rm -f ~/.claude/skills/INDEX.md
 ```
 
-`_worked-examples/` are reference material, not skills. Do not install that folder.
-
-45 skills. **21 of them exist nowhere else**, and with one exception they are the entire
+255 skills. **21 of them exist nowhere else**, and with one exception they are the entire
 video toolchain: captions, overlay cards, motion design, HyperFrames, Remotion, FFmpeg.
 That was the real gap.
 
@@ -279,3 +277,55 @@ exists, then reach for one when its job comes up.
 | `website-to-video` | Capture a general website/URL and turn it into a HyperFrames video (site tour, showcase, or social clip from t |
 | `wiki-brain` | Turn Claude Code into a knowledge base that compounds |
 
+---
+
+## Added from the starter kit and skill pack
+
+Merged in when the student repos were consolidated. Engineering discipline, research,
+and content production.
+
+| Skill | Use it when |
+|---|---|
+| `asr-transcribe-to-text` | Transcribes audio and video files to text using Qwen3-ASR |
+| `brainstorming` | You MUST use this before any creative work - creating features, building components, adding functionality, or ... |
+| `capture-screen` | Programmatic screenshot capture on macOS |
+| `cli-demo-generator` | Generates professional animated CLI demos as GIFs using VHS terminal recordings |
+| `client-brand` | Create or update a saved brand file for one of the user's clients (local business or online coach) at ~/.claud... |
+| `competitors-analysis` | Analyze competitor repositories with evidence-based approach |
+| `debugging-network-issues` | Evidence-driven investigation for network, streaming, and protocol-layer bugs |
+| `deep-research` | | Generate format-controlled research reports with evidence tracking, citations, source governance, and multi-... |
+| `dispatching-parallel-agents` | Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies |
+| `editorial-luxury-site` | Build a premium "Editorial Luxury" one-page site, the fancy showpiece kind (sticky photo hero the page scrolls... |
+| `excel-automation` | Create, parse, and control Excel files on macOS |
+| `executing-plans` | Use when you have a written implementation plan to execute in a separate session with review checkpoints |
+| `fact-checker` | Verifies factual claims in documents using web search and official sources, then proposes corrections with use... |
+| `finishing-a-development-branch` | Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides... |
+| `github-contributor` | Strategic guide for becoming an effective GitHub contributor |
+| `github-ops` | Provides comprehensive GitHub operations using gh CLI and GitHub API |
+| `llm-icon-finder` | Finding and accessing AI/LLM model brand icons from lobe-icons library |
+| `macos-cleaner` | Analyze and reclaim macOS disk space through intelligent cleanup recommendations |
+| `product-analysis` | Multi-path parallel product analysis with cross-model test-time compute scaling |
+| `prompt-optimizer` | Transform vague prompts into precise, well-structured specifications using EARS (Easy Approach to Requirements... |
+| `qa-expert` | This skill should be used when establishing comprehensive QA testing processes for any software project |
+| `receiving-code-review` | Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear... |
+| `repomix-safe-mixer` | Safely package codebases with repomix by automatically detecting and removing hardcoded credentials before pac... |
+| `repomix-unmixer` | Extracts files from repomix-packed repositories, restoring original directory structures from XML/Markdown/JSO... |
+| `requesting-code-review` | Use when completing tasks, implementing major features, or before merging to verify work meets requirements |
+| `skill-creator` | Create new skills, modify and improve existing skills, and measure skill performance |
+| `skill-reviewer` | Reviews and improves Claude Code skills against official best practices |
+| `skills-search` | This skill should be used when users want to search, discover, install, or manage Claude Code skills from the ... |
+| `slides-creator` | Narrative-first slide deck creation |
+| `subagent-driven-development` | Use when executing implementation plans with independent tasks in the current session |
+| `systematic-debugging` | Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes |
+| `teams-channel-post-writer` | Creates educational Teams channel posts for internal knowledge sharing about Claude Code features, tools, and ... |
+| `test-driven-development` | Use when implementing any feature or bugfix, before writing implementation code |
+| `transcript-fixer` | Corrects speech-to-text transcription errors using dictionary rules and AI-powered analysis |
+| `twitter-reader` | Fetch Twitter/X post content including long-form Articles with full images and metadata |
+| `ui-designer` | Extract design systems from reference UI images and generate implementation-ready UI design prompts |
+| `using-git-worktrees` | Use when starting feature work that needs isolation from current workspace or before executing implementation ... |
+| `using-superpowers` | Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation b... |
+| `verification-before-completion` | Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires runn... |
+| `video-comparer` | This skill should be used when comparing two videos to analyze compression results or quality differences |
+| `writing-plans` | Use when you have a spec or requirements for a multi-step task, before touching code |
+| `writing-skills` | Use when creating new skills, editing existing skills, or verifying skills work before deployment |
+| `youtube-downloader` | Download YouTube videos and HLS streams (m3u8) from platforms like Mux, Vimeo, etc |

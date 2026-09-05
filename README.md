@@ -1,6 +1,6 @@
 # Operator stack
 
-The Claude Code toolkit for AI Partner Method students: 212 skills, the connection
+The Claude Code toolkit for AI Partner Method students: 255 skills, the connection
 runbooks, subagent definitions, coding standards, and task templates.
 
 This is a toolkit, not an application. There is no server and no database. You install
@@ -17,7 +17,7 @@ settings from a `.env` file you create.
 2. Approve the Playwright browser when Claude Code asks. See [MCP.md](MCP.md) for why
    that one matters more than anything else here.
 3. Browse [skills/INDEX.md](skills/INDEX.md) and find the three or four you will
-   actually use this week. There are 212. You do not need most of them.
+   actually use this week. There are 255. You do not need most of them.
 
 ---
 
@@ -25,7 +25,7 @@ settings from a `.env` file you create.
 
 | Folder | What it is | Size |
 |---|---|---|
-| [skills/](skills/) | 212 Claude Code skills: design, copy, SEO, video, content, research, code quality. Start with [skills/INDEX.md](skills/INDEX.md) | 212 |
+| [skills/](skills/) | 255 Claude Code skills: design, copy, SEO, video, content, research, code quality. Start with [skills/INDEX.md](skills/INDEX.md) | 255 |
 | [connections/](connections/) | Deeper runbooks: Typeform, GitHub workflow, asset hosting and scrapers, design systems, agent orchestration | 39 |
 | [rules/](rules/) | Coding, testing, security and review standards by language | 65 files |
 | [agents/](agents/) | Subagent definitions, for pushing volume work to cheaper models | 34 |
@@ -82,7 +82,7 @@ a script does before you run it.
 
 ## Honest limits
 
-**212 skills is too many to learn.** Do not try. Read the index, pick the handful that
+**255 skills is too many to learn.** Do not try. Read the index, pick the handful that
 match what you are doing this month, and ignore the rest until you need them. Skills for
 Kotlin, Spring Boot, Rust and C++ are in here because the pack is shared across projects,
 and you will almost certainly never open them.
