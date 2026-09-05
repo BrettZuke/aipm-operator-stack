@@ -1,6 +1,6 @@
 # Operator stack
 
-The Claude Code toolkit for AI Partner Method students: 255 skills, the connection
+The Claude Code toolkit for AI Partner Method students: 304 skills, the connection
 runbooks, subagent definitions, coding standards, and task templates.
 
 This is a toolkit, not an application. There is no server and no database. You install
@@ -16,8 +16,9 @@ settings from a `.env` file you create.
 1. Run through [SETUP.md](SETUP.md). Fifteen minutes.
 2. Approve the Playwright browser when Claude Code asks. See [MCP.md](MCP.md) for why
    that one matters more than anything else here.
-3. Browse [skills/INDEX.md](skills/INDEX.md) and find the three or four you will
-   actually use this week. There are 255. You do not need most of them.
+3. That is it. The skills load themselves: Claude reads what each one is for and
+   uses the right one when the task fits. [skills/INDEX.md](skills/INDEX.md) is there
+   if you want to see what it can reach for, not something you have to study.
 
 ---
 
@@ -25,13 +26,14 @@ settings from a `.env` file you create.
 
 | Folder | What it is | Size |
 |---|---|---|
-| [skills/](skills/) | 255 Claude Code skills: design, copy, SEO, video, content, research, code quality. Start with [skills/INDEX.md](skills/INDEX.md) | 255 |
+| [skills/](skills/) | 304 Claude Code skills: design, copy, SEO, video, content, research, code quality. Start with [skills/INDEX.md](skills/INDEX.md) | 304 |
 | [connections/](connections/) | Deeper runbooks: Typeform, GitHub workflow, asset hosting and scrapers, design systems, agent orchestration | 39 |
 | [rules/](rules/) | Coding, testing, security and review standards by language | 65 files |
 | [agents/](agents/) | Subagent definitions, for pushing volume work to cheaper models | 34 |
 | [prompts/](prompts/) | Task templates. `00_universal_wrapper.md` is the default for anything | 8 |
 | [execution/](execution/) | Four checking tools: copy lint, page QA, deploy verify, Apify token rotation | 4 |
 | [MCP.md](MCP.md) | Giving Claude a real browser, so it can see the pages you ship | 1 |
+| [ATTRIBUTION.md](ATTRIBUTION.md) | Which skills came from open source projects, and their licences | 1 |
 
 ---
 
@@ -82,10 +84,14 @@ a script does before you run it.
 
 ## Honest limits
 
-**255 skills is too many to learn.** Do not try. Read the index, pick the handful that
-match what you are doing this month, and ignore the rest until you need them. Skills for
-Kotlin, Spring Boot, Rust and C++ are in here because the pack is shared across projects,
-and you will almost certainly never open them.
+**You do not pick skills, Claude does.** Every skill carries a description, Claude reads
+them and loads the matching one when the task fits. You never browse this list in normal
+use. Ask for a cold email and the `cold-email` skill fires on its own.
+
+**304 is a lot, and that is a real trade-off.** Every description loads into context on
+every conversation, and near-duplicates make Claude more likely to grab a close-but-wrong
+one. Skills for Kotlin, Spring Boot, Rust and C++ are here because the pack is shared
+across projects, and you will almost certainly never trigger them.
 
 **A skill is instructions, not magic.** It makes Claude consistent. It does not make it
 right. You still have to check the output, which is what the browser and the four tools
